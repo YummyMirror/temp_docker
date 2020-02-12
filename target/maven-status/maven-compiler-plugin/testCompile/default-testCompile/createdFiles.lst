@@ -1,0 +1,7 @@
+base\BasePage.class
+base\BaseTest.class
+app\ApplicationManager.class
+app\WebDriverFactory.class
+page\Navigation.class
+test\GoogleSearchTests.class
+test\YandexSearchTests.class

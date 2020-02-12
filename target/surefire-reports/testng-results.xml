@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Run Suite" duration-ms="15386" started-at="2020-02-12T14:41:12 MSK" finished-at="2020-02-12T14:41:27 MSK">
+    <groups>
+    </groups>
+    <test name="Test 1" duration-ms="15386" started-at="2020-02-12T14:41:12 MSK" finished-at="2020-02-12T14:41:27 MSK">
+      <class name="test.GoogleSearchTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:test.GoogleSearchTests@5649fd9b]" name="setUp" is-config="true" duration-ms="3335" started-at="2020-02-12T14:41:12 MSK" finished-at="2020-02-12T14:41:15 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-docker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@448c8166]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:test.GoogleSearchTests@5649fd9b]" name="googleTest" duration-ms="5388" started-at="2020-02-12T14:41:15 MSK" finished-at="2020-02-12T14:41:21 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.GoogleSearchTests@5649fd9b]" name="afterTest" is-config="true" duration-ms="1094" started-at="2020-02-12T14:41:21 MSK" finished-at="2020-02-12T14:41:22 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="yandexTest()[pri:1, instance:test.GoogleSearchTests@5649fd9b]" name="yandexTest" duration-ms="1909" started-at="2020-02-12T14:41:22 MSK" finished-at="2020-02-12T14:41:24 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yandexTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.GoogleSearchTests@5649fd9b]" name="afterTest" is-config="true" duration-ms="1070" started-at="2020-02-12T14:41:24 MSK" finished-at="2020-02-12T14:41:25 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="yahooTest()[pri:2, instance:test.GoogleSearchTests@5649fd9b]" name="yahooTest" duration-ms="1426" started-at="2020-02-12T14:41:25 MSK" finished-at="2020-02-12T14:41:26 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.GoogleSearchTests@5649fd9b]" name="afterTest" is-config="true" duration-ms="1068" started-at="2020-02-12T14:41:26 MSK" finished-at="2020-02-12T14:41:27 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.GoogleSearchTests@5649fd9b]" name="tearDown" is-config="true" duration-ms="68" started-at="2020-02-12T14:41:27 MSK" finished-at="2020-02-12T14:41:27 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.GoogleSearchTests -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- Run Suite -->
+  <suite name="Run Suite (0)" duration-ms="7146" started-at="2020-02-12T14:41:27 MSK" finished-at="2020-02-12T14:41:34 MSK">
+    <groups>
+    </groups>
+    <test name="Test 1" duration-ms="7146" started-at="2020-02-12T14:41:27 MSK" finished-at="2020-02-12T14:41:34 MSK">
+      <class name="test.YandexSearchTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:test.YandexSearchTests@5abca1e0]" name="setUp" is-config="true" duration-ms="918" started-at="2020-02-12T14:41:27 MSK" finished-at="2020-02-12T14:41:28 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-docker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4470fbd6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openSite()[pri:0, instance:test.YandexSearchTests@5abca1e0]" name="openSite" duration-ms="6140" started-at="2020-02-12T14:41:28 MSK" finished-at="2020-02-12T14:41:34 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.YandexSearchTests@5abca1e0]" name="tearDown" is-config="true" duration-ms="87" started-at="2020-02-12T14:41:34 MSK" finished-at="2020-02-12T14:41:34 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.YandexSearchTests -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- Run Suite (0) -->
+</testng-results>
