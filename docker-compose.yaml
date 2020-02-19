@@ -17,7 +17,7 @@ services:
     environment:
       - HUB_HOST=hub
   chrome_exec:
-    image: yummy/docker:mine2
+    image: yummymirror1/docker123:latest
     depends_on:
       - chrome
       - firefox
